@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    text-align: center;
+}
+.container{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gameentry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.game_heading{
+    color: white;
+    font-size: 10vmin;
+}
+.playbtn{
+    background-color: white;
+    font-size: 6vmin;
+    padding: 0.7rem;
+    margin-top: 5vmin;
+    border-radius: 12px;
+}
+.playbtn:hover{
+    cursor: pointer;
+}
+.man{
+    margin-top: 2rem;
+    width: 20vmin;
+    height: 30vmin;
+    background-color: black;
+    position: relative;
+}
+#man_head{
+    display: none;
+    position: relative;
+    height: 6vmin;
+    width: 6vmin;
+    border-radius: 50%;
+    /* background-color: black; */
+    border: 2px solid white;
+    left: 7vmin;
+}
+#man_upper{
+    display: none;
+    position: relative;
+    height: 8vmin;
+    width: 0px;
+    border: 1px solid white;
+    left: 10vmin;
+}
+#man_left{
+    display: none;
+    position: relative;
+    height: 8vmin;
+    width: 0px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    left: 7vmin;
+    bottom: 9.5vmin;
+}
+#man_right{
+    display: none;
+    position: relative;
+    height: 8vmin;
+    width: 0px;
+    border: 1px solid white;
+    transform: rotate(-45deg);
+    left: 13vmin;
+    bottom: 17.8vmin;
+}
+#man_lowerleft{
+    display: none;
+    position: relative;
+    height: 8vmin;
+    width: 0px;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    left: 7vmin;
+    bottom: 17.8vmin;
+}
+
+#man_lowerright{
+    display: none;
+    position: relative;
+    height: 8vmin;
+    width: 0px;
+    border: 1px solid white;
+    transform: rotate(-45deg);
+    left: 13vmin;
+    bottom: 26.1vmin;
+}
+.displayword{
+    display: none;
+    margin-top: 1.5rem;
+    width: 42vmin; 
+}
+.alp_btn{
+    display: none;
+    width: 6vmin;
+    height: 6vmin;
+    background-color: white;
+    border-radius: 12px;
+}
+.keyboard{
+    
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 43vmin;
+    gap: 1px;
+}
+
+.insertword{
+    width: 3vmin;
+    height: 3vmin;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+}
